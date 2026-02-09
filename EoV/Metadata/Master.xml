@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerMaster" id="{6ab9b587-3c4a-43b1-85bf-11f4bcf2fba5}">
+		<property name="name">
+			<value>Master Bus</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{61ebed5d-bcf0-4811-b684-b561a19d05c6}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8e3ee5c8-c0eb-46e0-a27e-b308b8cdb70a}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{54d09e84-4820-4569-bae1-b45e36fb0221}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{61ebed5d-bcf0-4811-b684-b561a19d05c6}">
+		<relationship name="effects">
+			<destination>{f52040c2-e024-4c80-a133-4f5410498ded}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8e3ee5c8-c0eb-46e0-a27e-b308b8cdb70a}">
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{f52040c2-e024-4c80-a133-4f5410498ded}" />
+</objects>

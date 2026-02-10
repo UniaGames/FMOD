@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{07b949c9-bb9c-4c32-82b3-843d68d99d6a}">
+	<object class="AudioFile" id="{84b7d323-798c-4140-81e6-4994f1772aca}">
 		<property name="assetPath">
-			<value>Mozart.wav</value>
+			<value>SFX/Ambient/SD_Prigione_Q_Gocce_2.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>464</value>
+			<value>35.480476190476189</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{905d91d5-6644-4e9f-8052-d7a062a23ed5}</destination>

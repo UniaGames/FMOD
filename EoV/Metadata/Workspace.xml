@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Workspace" id="{6ca2c0d6-c6ee-41d5-9eb0-0e023effadcd}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../../Project_Unreal/Echos-Of-Void/EchosOfVoid/Content/FMOD</value>
+		</property>
 		<relationship name="masterEventFolder">
 			<destination>{94264ba2-9b24-4e03-864d-26efa6163cca}</destination>
 		</relationship>
